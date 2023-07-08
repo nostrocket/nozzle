@@ -2,8 +2,6 @@ import logo from './logo.png'
 
 export default function Logo() {
   return (
-    <>
-      <img src={logo} alt="Logo" className="logo"/>
-    </>
+    <img src={logo} alt="Nostrocket" className="logo"/>
   )
 }

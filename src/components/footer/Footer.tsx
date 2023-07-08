@@ -11,10 +11,8 @@ export default function Footer() {
         </ul>
       </nav>
       <div className="social-icons">
-        <a href="#"><i className="fab fa-facebook-f"></i></a>
+        <a href="https://t.me/nostrocket" target="_blank"><i className="fab fa-telegram"></i></a>
         <a href="#"><i className="fab fa-twitter"></i></a>
-        <a href="#"><i className="fab fa-linkedin-in"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
       </div>
     </footer>
   )

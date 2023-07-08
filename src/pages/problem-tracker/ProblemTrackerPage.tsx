@@ -1,4 +1,4 @@
-export default function ProblemTracker() {
+export default function ProblemTrackerPage() {
   return (
     <>
       <ul className="problem-list">
