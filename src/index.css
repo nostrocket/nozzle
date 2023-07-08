@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  flex-grow: 1;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav-links, .footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li, .footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child, .footer-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a, .footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sign-in {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 20px;
+}
+
+.problem-list {
+  list-style: none;
+  padding: 0;
+}

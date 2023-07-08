@@ -1,0 +1,21 @@
+:root {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 1.5em;
+}
